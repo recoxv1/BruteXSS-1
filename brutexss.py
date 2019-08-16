@@ -19,11 +19,6 @@ init()
 banner = """                                                                                       
 """
 def brutexss():
-	if os.name == 'nt':
-		os.system('cls')
-	else:
-		os.system('clear')
-	print banner
 	def again():
 		inp = raw_input("[?] [E]xit or launch [A]gain? (e/a)").lower()
 		if inp == 'a':
