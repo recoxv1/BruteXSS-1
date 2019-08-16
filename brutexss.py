@@ -17,23 +17,6 @@ import mechanize
 import httplib
 init()
 banner = """                                                                                       
-  ____             _        __  ______ ____  
- | __ ) _ __ _   _| |_ ___  \ \/ / ___/ ___| 
- |  _ \| '__| | | | __/ _ \  \  /\___ \___ \ 
- | |_) | |  | |_| | ||  __/  /  \ ___) |__) |
- |____/|_|   \__,_|\__\___| /_/\_\____/____/ 
-                                            
- BruteXSS - Cross-Site Scripting BruteForcer
- 
- Author: Shawar Khan - https://shawarkhan.com 
- 
- Sponsored & Supported by Netsparker Web Application Security Scanner 
- ( https://www.netsparker.com/?utm_source=software&utm_medium=referral&utm_content=brand+name&utm_campaign=generic+advert )
-
- Note: Using incorrect payloads in the custom
- wordlist may give you false positives so its
- better to use the wordlist which is already
- provided for positive results.
 """
 def brutexss():
 	if os.name == 'nt':
